@@ -9,12 +9,12 @@ import Link from 'next/link';
 
 const socialLinks = [
   {
-    href: 'https://github.com',
+    href: 'https://github.com/Kathan1010',
     icon: <Github className="h-5 w-5" />,
     label: 'GitHub',
   },
   {
-    href: 'https://linkedin.com',
+    href: 'https://www.linkedin.com/in/kathan-gajera-20796a312/',
     icon: <Linkedin className="h-5 w-5" />,
     label: 'LinkedIn',
   },
