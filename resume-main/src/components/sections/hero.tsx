@@ -38,8 +38,9 @@ const HeroSection = () => {
                 className="rounded-full object-cover shadow-2xl ring-4 ring-primary/20 aspect-square"
                 priority
               />
+
             )}
-             <div className="absolute inset-0 rounded-full animate-pulse-slow border-4 border-primary/30"></div>
+            <div className="absolute inset-0 rounded-full animate-pulse-slow border-4 border-primary/30"></div>
           </div>
           <div className="text-center md:col-span-2 md:text-left">
             <h1 className="font-headline text-4xl font-extrabold tracking-tight text-primary md:text-5xl lg:text-6xl hover-shimmer">
