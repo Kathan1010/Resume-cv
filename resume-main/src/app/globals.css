@@ -4,45 +4,63 @@
 
 @layer base {
   :root {
-    --background: 0 0% 96.1%;
-    --foreground: 275 10% 15%;
-    --card: 0 0% 100%;
-    --card-foreground: 275 10% 15%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 275 10% 15%;
-    --primary: 275 100% 25%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 275 20% 92%;
-    --secondary-foreground: 275 100% 25%;
-    --muted: 0 0% 93%;
-    --muted-foreground: 275 5% 45%;
-    --accent: 180 100% 25%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 84.2% 60.2%;
+    --background: 285 15% 9%;
+    --foreground: 0 0% 96.1%;
+
+    --card: 275 10% 12%;
+    --card-foreground: 0 0% 96.1%;
+
+    --popover: 275 10% 15%;
+    --popover-foreground: 0 0% 96.1%;
+
+    --primary: 275 80% 70%;
+    --primary-foreground: 275 100% 25%;
+
+    --secondary: 275 15% 25%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 275 10% 20%;
+    --muted-foreground: 0 0% 75%;
+
+    --accent: 180 80% 60%;
+    --accent-foreground: 275 10% 15%;
+
+    --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 89.8%;
-    --input: 0 0% 89.8%;
-    --ring: 180 80% 45%;
+
+    --border: 275 10% 30%;
+    --input: 275 10% 25%;
+    --ring: 180 80% 60%;
+
+    --radius: 0.5rem;
   }
 
   .dark {
     --background: 285 15% 9%;
     --foreground: 0 0% 96.1%;
-    --card: 275 10% 15%;
+
+    --card: 275 10% 12%;
     --card-foreground: 0 0% 96.1%;
+
     --popover: 275 10% 15%;
     --popover-foreground: 0 0% 96.1%;
-    --primary: 275 80% 60%;
+
+    --primary: 275 80% 70%;
     --primary-foreground: 275 100% 25%;
+
     --secondary: 275 15% 25%;
     --secondary-foreground: 0 0% 98%;
+
     --muted: 275 10% 20%;
-    --muted-foreground: 0 0% 63.9%;
-    --accent: 180 80% 50%;
+    --muted-foreground: 0 0% 75%;
+
+    --accent: 180 80% 60%;
     --accent-foreground: 275 10% 15%;
+
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 275 10% 25%;
+
+    --border: 275 10% 30%;
     --input: 275 10% 25%;
     --ring: 180 80% 60%;
   }
@@ -57,11 +75,6 @@
   }
   body {
     @apply bg-background text-foreground;
-  }
-  
-  /* Hide Next.js development indicator */
-  nextjs-portal {
-    display: none;
   }
 }
 
@@ -185,7 +198,7 @@
     break-inside: avoid;
   }
   
-  header, footer, .particle-container {
+  header, footer, .particle-container, aside {
     display: none;
   }
   
