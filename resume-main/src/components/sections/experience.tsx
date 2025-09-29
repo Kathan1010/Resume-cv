@@ -7,7 +7,7 @@ const ExperienceSection = () => {
   return (
     <section id="experience" className="py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <h2 className="mb-12 text-left font-headline text-3xl font-bold md:text-4xl text-primary">
+        <h2 className="mb-12 text-center font-headline text-3xl font-bold md:text-4xl hover-shimmer">
           Work Experience
         </h2>
         <div className="mx-auto max-w-4xl space-y-8">

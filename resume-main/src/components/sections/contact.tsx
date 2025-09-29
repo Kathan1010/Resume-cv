@@ -7,19 +7,19 @@ const contactInfo = [
   {
     icon: <MapPin className="h-6 w-6 text-accent" />,
     label: 'Location',
-    value: 'San Francisco, CA',
+    value: 'Bengaluru, KA',
   },
   {
     icon: <Mail className="h-6 w-6 text-accent" />,
     label: 'Email',
-    value: 'john.doe@example.com',
-    href: 'mailto:john.doe@example.com',
+    value: 'kathangajera@gmail.com',
+    href: 'mailto:kathangajera@gmail.com',
   },
   {
     icon: <Phone className="h-6 w-6 text-accent" />,
     label: 'Phone',
-    value: '(123) 456-7890',
-    href: 'tel:+11234567890',
+    value: '+91 12345 67890',
+    href: 'tel:+91 1234567890',
   },
 ];
 

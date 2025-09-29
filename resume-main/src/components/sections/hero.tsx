@@ -43,9 +43,9 @@ const HeroSection = () => {
           </div>
           <div className="text-center md:col-span-2 md:text-left">
             <h1 className="font-headline text-4xl font-extrabold tracking-tight text-primary md:text-5xl lg:text-6xl hover-shimmer">
-              John Doe
+              Kathan Gajera
             </h1>
-            <p className="mt-2 font-headline text-2xl font-medium text-accent md:text-3xl animate-fadeInUp animation-delay-300 hover-glow-accent">
+            <p className="mt-6 font-headline text-2xl font-medium text-accent md:text-3xl animate-fadeInUp animation-delay-300 hover-glow-accent">
               Engineering Student | Full Stack Developer | Technophile
             </p>
             <p className="mt-6 max-w-2xl text-lg text-muted-foreground animate-fadeInUp animation-delay-500 hover-silver-glow">

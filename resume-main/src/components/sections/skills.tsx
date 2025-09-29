@@ -41,7 +41,7 @@ const SkillsSection = () => {
   return (
     <section id="skills" className="py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <h2 className="mb-12 text-left font-headline text-3xl font-bold md:text-4xl text-primary">
+        <h2 className="mb-12 text-center font-headline text-3xl font-bold md:text-4xl hover-shimmer">
           Skills & Expertise
         </h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -58,8 +58,8 @@ const SkillsSection = () => {
                     {category.skills.map((skill, skillIndex) => {
                       const Icon = iconMap[skill.icon] || Code;
                       return (
-                      <Badge key={skillIndex} variant="secondary" className="flex items-center gap-2 transition-transform hover:scale-110 bg-accent/20 text-accent-foreground hover:bg-accent/30">
-                        <Icon className="h-4 w-4 text-accent" />
+                      <Badge key={skillIndex} variant="outline" className="flex items-center gap-2 transition-transform hover:scale-110 bg-background/30 border-primary/30 text-primary hover:bg-primary/10">
+                        <Icon className="h-4 w-4" />
                         <span>{skill.name}</span>
                       </Badge>
                     )})}
