@@ -28,10 +28,6 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleDownloadPdf = () => {
-    window.print();
-  };
-  
   const NavLinks = ({ inSheet = false }: { inSheet?: boolean }) => (
     <nav className={cn(
       "flex items-center gap-4 lg:gap-6",
@@ -60,16 +56,18 @@ const Header = () => {
           <CodeXml className="h-6 w-6" />
           <span>Kathan Gajera</span>
         </Link>
-        
+
         <div className="hidden md:flex items-center gap-4">
           <NavLinks />
         </div>
 
         <div className="flex items-center gap-2 ">
           <ThemeCustomizer />
-          <Button onClick={handleDownloadPdf} variant="outline" size="sm" className="hidden sm:inline-flex transition-transform hover:-translate-y-1 hover:shadow-[0_0_15px_hsl(var(--primary)/0.5)]">
-            <Download className="mr-2 h-4 w-4" />
-            PDF
+          <Button asChild>
+            <a href="/resume.pdf" download="Kathan_Gajera_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <Download className="mr-2 h-4 w-4" />
+              Resume
+            </a>
           </Button>
 
           <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
@@ -87,9 +85,11 @@ const Header = () => {
                 </Link>
                 <NavLinks inSheet />
                 <div className="mt-auto">
-                  <Button onClick={handleDownloadPdf} variant="outline" className="w-full transition-transform hover:-translate-y-1 hover:shadow-[0_0_15px_hsl(var(--primary)/0.5)]">
-                    <Download className="mr-2 h-4 w-4" />
-                    Download PDF
+                  <Button asChild>
+                    <a href="/resume.pdf" download="Kathan_Gajera_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                      <Download className="mr-2 h-4 w-4" />
+                      Resume
+                    </a>
                   </Button>
                 </div>
               </div>
