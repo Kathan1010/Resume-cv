@@ -1,3 +1,4 @@
+
 interface Skill {
     name: string;
     icon: string;
@@ -16,6 +17,8 @@ export const skillsData: SkillCategory[] = [
             { name: 'C', icon: 'Code' },
             { name: 'Python', icon: 'Code' },
             { name: 'TypeScript', icon: 'Code' },
+            { name: 'JavaScript', icon: 'Code' },
+            { name: 'Arduino', icon: 'Code' },
         ],
     },
     {
@@ -34,6 +37,9 @@ export const skillsData: SkillCategory[] = [
             { name: 'Django', icon: 'Server' },
             { name: 'Next.js', icon: 'Server' },
             { name: 'Tailwind CSS', icon: 'Paintbrush' },
+            { name: 'SQL', icon: 'Database' },
+            { name: 'MongoDB', icon: 'Database' },
+            { name: 'Node.js', icon: 'Server' },
         ],
     },
     {
@@ -47,6 +53,20 @@ export const skillsData: SkillCategory[] = [
             { name: 'Deployment', icon: 'Server' },
         ],
     },
+    {
+        title: 'Soft Skills',
+        skills: [
+            { name: 'Team Collaboration', icon: 'Users' },
+            { name: 'Effective Communication', icon: 'MessageCircle' },
+            { name: 'Problem Solving', icon: 'Brain' },
+            { name: 'Adaptability', icon: 'Zap' },
+            { name: 'Time Management', icon: 'Clock' },
+            { name: 'Creativity', icon: 'Lightbulb' },
+            { name: 'Leadership', icon: 'Star' },
+            { name: 'Target Oriented', icon: 'CheckCircle' },
+            { name: 'Consistency', icon: 'Repeat' },
+        ]
+    }
 ];
 
 interface Experience {
