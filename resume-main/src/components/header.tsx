@@ -65,7 +65,7 @@ const Header = () => {
           <NavLinks />
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 ">
           <ThemeCustomizer />
           <Button onClick={handleDownloadPdf} variant="outline" size="sm" className="hidden sm:inline-flex transition-transform hover:-translate-y-1 hover:shadow-[0_0_15px_hsl(var(--primary)/0.5)]">
             <Download className="mr-2 h-4 w-4" />

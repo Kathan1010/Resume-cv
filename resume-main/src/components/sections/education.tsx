@@ -15,7 +15,7 @@ const EducationSection = () => {
             <AnimatedSection key={index}>
               <Card className="group-data-[state=visible]:animate-lift-and-settle print-break-inside-avoid transition-all duration-500 hover:shadow-[0_0_20px_5px_hsl(var(--primary)/0.2)] hover:[transform:scale(1.02)]">
                 <CardHeader>
-                  <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-center">
+                  <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-center">
                     <CardTitle className="font-headline text-xl">{edu.institution}</CardTitle>
                     <CardDescription className="text-sm font-medium text-primary">
                       {edu.date}

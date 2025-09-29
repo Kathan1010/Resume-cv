@@ -24,10 +24,10 @@ export function ThemeCustomizer() {
   return (
     <Popover>
       <PopoverTrigger asChild>
-        <Button variant="outline" size="icon" className="no-print transition-transform hover:-translate-y-1 hover:shadow-[0_0_15px_hsl(var(--primary)/0.5)]">
+        {/* <Button variant="outline" size="icon" className="no-print transition-transform hover:-translate-y-1 hover:shadow-[0_0_15px_hsl(var(--primary)/0.5)]">
           <Palette className="h-4 w-4" />
           <span className="sr-only">Customize Theme</span>
-        </Button>
+        </Button> */}
       </PopoverTrigger>
       <PopoverContent className="w-auto p-2 no-print">
         <div className="flex items-center space-x-2">

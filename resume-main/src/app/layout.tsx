@@ -6,7 +6,7 @@ import { ThemeProvider } from 'next-themes';
 import ParticleBackground from '@/components/particle-background';
 
 export const metadata: Metadata = {
-  title: 'Kinetic CV - An Interactive Resume',
+  title: 'Kathan Gajera | Resume - An Interactive Resume',
   description: 'A dynamic and animated resume built with Next.js and Tailwind CSS.',
 };
 

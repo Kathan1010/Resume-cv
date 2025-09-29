@@ -78,25 +78,12 @@ interface Experience {
 
 export const experienceData: Experience[] = [
   {
-    company: 'Tech Innovators Inc.',
-    role: 'Senior Full-Stack Developer',
-    date: 'Jan 2020 - Present',
+    company: 'Param Software',
+    role: 'Intern',
+    date: 'Sept - 06 -2025 To Oct - 06 -2025',
     responsibilities: [
-      'Led the development of a high-traffic e-commerce platform using Next.js and TypeScript.',
-      'Architected and implemented a scalable microservices backend with Node.js and Docker.',
-      'Mentored junior developers and conducted code reviews to maintain high code quality.',
+      'Architected and implemented a scalable microservices backend with Django and Next.js.',
       'Collaborated with product managers and designers to translate requirements into technical solutions.',
-    ],
-  },
-  {
-    company: 'Creative Solutions Co.',
-    role: 'Mid-Level Frontend Developer',
-    date: 'Jun 2017 - Dec 2019',
-    responsibilities: [
-      'Developed and maintained responsive user interfaces for client websites using React.',
-      'Improved website performance by 30% through code optimization and lazy loading.',
-      'Integrated third-party APIs for payments, mapping, and social media.',
-      'Worked in an Agile team, participating in daily stand-ups and sprint planning.',
     ],
   },
 ];
@@ -111,15 +98,9 @@ interface Education {
 
 export const educationData: Education[] = [
     {
-        institution: 'University of Technology',
-        degree: 'Master of Science in Computer Science',
-        date: '2015 - 2017',
-        description: 'Focused on artificial intelligence and machine learning. Thesis on natural language processing.'
+        institution: 'RV College of Engineering',
+        degree: 'Bachelor of Engineering in Computer Science and Engineering with a specialization in AI & ML',
+        date: '2024 - Present',
+        description: 'Focused on artificial intelligence and machine learning and data science.'
     },
-    {
-        institution: 'State University',
-        degree: 'Bachelor of Science in Software Engineering',
-        date: '2011 - 2015',
-        description: 'Graduated with honors. President of the university coding club.'
-    }
 ]
