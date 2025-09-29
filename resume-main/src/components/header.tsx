@@ -58,7 +58,7 @@ const Header = () => {
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2 font-headline text-lg font-bold text-primary">
           <CodeXml className="h-6 w-6" />
-          <span>Kinetic CV</span>
+          <span>Kathan Gajera</span>
         </Link>
         
         <div className="hidden md:flex items-center gap-4">
@@ -83,7 +83,7 @@ const Header = () => {
               <div className="flex flex-col h-full">
                 <Link href="/" className="flex items-center gap-2 font-headline text-lg font-bold text-primary mb-6">
                   <CodeXml className="h-6 w-6" />
-                  <span>Kinetic CV</span>
+                  <span>Kathan Gajera</span>
                 </Link>
                 <NavLinks inSheet />
                 <div className="mt-auto">
