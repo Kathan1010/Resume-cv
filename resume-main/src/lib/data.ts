@@ -54,28 +54,14 @@ interface Experience {
 
 export const experienceData: Experience[] = [
   {
-    company: 'Tech Innovators Inc.',
-    role: 'Senior Full-Stack Developer',
-    date: 'Jan 2020 - Present',
+    company: 'Param Software',
+    role: 'Intern',
+    date: 'Sept - 01 - 2025 To Oct - 06 - 2025',
     responsibilities: [
-      'Led the development of a high-traffic e-commerce platform using Next.js and TypeScript.',
-      'Architected and implemented a scalable microservices backend with Node.js and Docker.',
-      'Mentored junior developers and conducted code reviews to maintain high code quality.',
+      'Architected and implemented a scalable microservices backend with Next.js and API routes',
       'Collaborated with product managers and designers to translate requirements into technical solutions.',
     ],
-    technologies: ['Next.js', 'TypeScript', 'Node.js', 'PostgreSQL', 'Docker', 'Kubernetes'],
-  },
-  {
-    company: 'Creative Solutions Co.',
-    role: 'Mid-Level Frontend Developer',
-    date: 'Jun 2017 - Dec 2019',
-    responsibilities: [
-      'Developed and maintained responsive user interfaces for client websites using React.',
-      'Improved website performance by 30% through code optimization and lazy loading.',
-      'Integrated third-party APIs for payments, mapping, and social media.',
-      'Worked in an Agile team, participating in daily stand-ups and sprint planning.',
-    ],
-    technologies: ['React', 'JavaScript', 'Redux', 'Sass', 'Webpack', 'Jest'],
+    technologies: ['Next.js', 'TypeScript', 'Supabase', 'Vercel', 'Tailwind CSS'],
   },
 ];
 
