@@ -88,6 +88,46 @@ export const experienceData: Experience[] = [
   },
 ];
 
+interface Project {
+  title: string;
+  description: string;
+  technologies: string[];
+  link: string;
+  repoLink: string;
+  liveLink: string;
+  image: string;
+}
+
+export const projectData: Project[] = [
+  {
+    title: 'Netflix UI Clone',
+    description: 'A full Netflix Like UI Clone built purely with HTML and CSS',
+    technologies: ['HTML', 'CSS'],
+    link: 'https://netflix-ui-clone-neon-two.vercel.app/',
+    repoLink: 'https://github.com/Kathan1010/netflix-ui-clone',
+    liveLink: 'https://netflix-ui-clone-neon-two.vercel.app/',
+    image: 'project-ecommerce',
+  },
+  {
+    title: 'Full 3D Web based Golf Game',
+    description: 'A web-based golf game featuring 3D graphics and real-time proper feel and functionality, built with Three.js, WebSocket, and Next.js.',
+    technologies: ['Three.js', 'WebSocket', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Supabase', 'Vercel', 'stable Diffusion'],
+    link: 'https://mini-golf-final-ten.vercel.app/',
+    repoLink: 'https://github.com/Kathan1010/Mini-Golf-Final-main',
+    liveLink: 'https://mini-golf-final-ten.vercel.app/',
+    image: 'project-dashboard',
+  },
+  {
+    title: 'Mobile-First Social Networking App',
+    description: 'Revamping: A modern, professional image gallery platform',
+    technologies: ['React18', 'vite', 'TypeScript', 'Supabase', 'Tailwind CSS', 'Vercel'],
+    link: 'https://revamped-image-gallery.vercel.app/',
+    repoLink: 'https://github.com/Kathan1010/Revamped-Image-Gallery-main',
+    liveLink: 'https://revamped-image-gallery.vercel.app/',
+    image: 'project-social',
+  },
+];
+
 
 interface Education {
     institution: string;

@@ -5,6 +5,24 @@
       "description": "A professional headshot of the resume owner.",
       "imageUrl": "/images/Profile_img.jpg",
       "imageHint": "professional headshot"
+    },
+    {
+      "id": "project-ecommerce",
+      "description": "Screenshot of an e-commerce website homepage.",
+      "imageUrl": "/images/Netflix_UI_Clone.png",
+      "imageHint": "website screenshot"
+    },
+    {
+      "id": "project-dashboard",
+      "description": "A dashboard with various charts and graphs.",
+      "imageUrl": "/images/Web_Golf.png",
+      "imageHint": "data dashboard"
+    },
+    {
+      "id": "project-social",
+      "description": "A mobile phone showing a social media app interface.",
+      "imageUrl": "/images/Revamping_image_gallary.png",
+      "imageHint": "social media app"
     }
   ]
 }

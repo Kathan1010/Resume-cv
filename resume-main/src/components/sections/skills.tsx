@@ -39,7 +39,7 @@ const iconMap: Record<string, React.ElementType> = {
 
 const SkillsSection = () => {
   return (
-    <section id="skills" className="py-16 md:py-24">
+    <section id="skills" className="py-16 md:py-24 bg-white/5 backdrop-blur-md">
       <div className="container mx-auto px-4">
         <h2 className="mb-12 text-center font-headline text-3xl font-bold md:text-4xl hover-shimmer">
           Skills & Expertise
