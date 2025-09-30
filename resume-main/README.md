@@ -40,8 +40,3 @@ Follow these steps to get the project running on your local machine.
 Open [http://localhost:9002](http://localhost:9002) in your browser to see the result.
 
 
-1.  Find or create the `public` folder in the root of your project.
-2.  Place your resume file in this folder and name it `resume.pdf`.
-3.  Place your profile picture in this folder and name it `profile.jpg`.
-
-The project is already configured to use these file names.
