@@ -118,7 +118,7 @@ export const projectData: Project[] = [
     image: 'project-dashboard',
   },
   {
-    title: 'Mobile-First Social Networking App',
+    title: 'Revamping: A modern web based image gallery',
     description: 'Revamping: A modern, professional image gallery platform',
     technologies: ['React18', 'vite', 'TypeScript', 'Supabase', 'Tailwind CSS', 'Vercel'],
     link: 'https://revamped-image-gallery.vercel.app/',
