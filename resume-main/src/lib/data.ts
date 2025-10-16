@@ -58,7 +58,6 @@ export const skillsData: SkillCategory[] = [
         skills: [
             { name: 'Team Collaboration', icon: 'Users' },
             { name: 'Effective Communication', icon: 'MessageCircle' },
-            { name: 'Problem Solving', icon: 'Brain' },
             { name: 'Adaptability', icon: 'Zap' },
             { name: 'Time Management', icon: 'Clock' },
             { name: 'Creativity', icon: 'Lightbulb' },
